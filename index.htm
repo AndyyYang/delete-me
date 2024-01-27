@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
-    <link rel="stylesheet" href="/style.css">
-    <script src="/site.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="site.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,21 +13,22 @@
     </header>
 
     <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#" id="contact">Contact</a>
-		<a href="#">Login</a>
+        <a id="homelink" href="#">Home</a>
+        <a id="aboutlink" href="#">About</a>
+        <a class="copyright" id="contactlink" href="#">Contact</a>
     </nav>
 
     <section>
-        <h2 class="active">Main Content Section</h2>
+        <h2>Main Content Section</h2>
         <p>This is some content... Content goes here :D</p>
     </section>
 
     <footer>
-        <div><p>bla</p></div>
-
-        <p>&copy; 2024 Ryan's cool webpage. All rights reserved.</p>
+        <p class="copyright">&copy; 2024 All rights reserved.</p>
+        <div class="container">
+            <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+            <p>Website by <a id="ryansworkshop" href="https://www.ryansworkshop.com">Ryan's Website</a></p>
+        </div>
     </footer>
 </body>
 
